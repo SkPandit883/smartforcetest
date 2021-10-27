@@ -12,7 +12,7 @@ class Song extends TestCase
      *
      * @return void
      */
-    public function test_example()
+    public function songs_create()
     {
         $user = User::factory()->create();
         $playlist=PlayList::factory()->create();

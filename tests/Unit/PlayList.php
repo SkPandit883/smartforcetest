@@ -13,7 +13,7 @@ class PlayList extends TestCase
      * @return void
      */
     use RefreshDatabase;
-    public function test_example()
+    public function play_list_create()
     {
         $user = User::factory()->create();
         $response = $this->actingAs($user,'api');
